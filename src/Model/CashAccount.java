@@ -8,6 +8,8 @@ public class CashAccount extends Account{
     public CashAccount(String name, Double balance, String type, Double interest) {
         super(name, balance);
         this.type = type;
+        this.salary = salary;
+        this.firstname= firstname;
         this.interest = interest;
     }
 
