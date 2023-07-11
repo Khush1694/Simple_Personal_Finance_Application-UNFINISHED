@@ -11,6 +11,8 @@ public class CashAccount extends Account{
         this.salary = salary;
         this.firstname= firstname;
         this.interest = interest;
+        this.accountNumber = accountNumber;
+        this.employeeLastName = lastName;
     }
 
     //Getters
