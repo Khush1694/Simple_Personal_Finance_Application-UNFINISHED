@@ -68,6 +68,8 @@ public class Income implements Retriever{
     public String toString() {
         return  "Title: " + title +
                 "\nYearly salary: $" + salary +
+                "\n FirstName: $" + firstName+
+                "\n AccountNumber" + accountNumber+
                 "\nMonthly salary: $" + salary/12 +
                 "\nSecondary Income name: " + secondaryIncomeTitle +
                 "\nSecondary Income salary: $" + secondaryIncome +
